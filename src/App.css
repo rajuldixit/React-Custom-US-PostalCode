@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.postal-code-widget-style {
+  padding: 5%;
+  width: 300px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-field-widget {
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+  border: 2px solid gray;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-field-widget {
+  width: 80%;
+  height: 24px;
+  margin-top: 10px;
+  margin-left: 10%;
+  background: rosybrown;
+  border: none;
+  border-radius: 20px;
+  color: #5e5c5c;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label-widget {
+  margin: 20px 0;
+  color: goldenrod;
 }
